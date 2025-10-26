@@ -3,10 +3,12 @@
 Quick start
 -----------
 1) Copy env and set your token:
-   cp .env.example .env  # then edit .env to set TIINGO_TOKEN
+   cp .env.example .env
 
-2) Launch:
+        then edit .env to set TIINGO_TOKEN
+
+3) Launch:
    docker compose up --build
 
-3) Open Airflow: http://localhost:8080 (admin/admin)
+4) Open Airflow: http://localhost:8080 (admin/admin)
    Unpause DAGs: btc_ingest_5m and btc_train_daily
