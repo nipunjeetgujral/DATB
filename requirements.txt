@@ -1,0 +1,7 @@
+psycopg2-binary
+SQLAlchemy>=2.0
+pandas>=2.1
+numpy>=1.26
+requests>=2.31
+nltk>=3.8
+torch==2.2.2
